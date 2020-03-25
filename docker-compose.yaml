@@ -2,4 +2,7 @@ version: "3.7"
 services:
   app:
     image: node:13.10-alpine
-    command: node -v
+    volumes:
+      - .:/usr/src/app
+    working_dir: /usr/src/app
+    command: npm init -y

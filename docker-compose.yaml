@@ -5,4 +5,4 @@ services:
       context: .
     volumes:
       - .:/usr/src/app
-    command: nodemon -v
+    command: node app.js

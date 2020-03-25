@@ -1,8 +1,8 @@
 version: "3.7"
 services:
   app:
-    image: node:13.10-alpine
+    build:
+      context: .
     volumes:
       - .:/usr/src/app
-    working_dir: /usr/src/app
-    command: npm init -y
+    command: nodemon -v

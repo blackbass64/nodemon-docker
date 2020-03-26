@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/atbee/nodemon-docker/issues"
   },
-  "homepage": "https://github.com/atbee/nodemon-docker#readme"
+  "homepage": "https://github.com/atbee/nodemon-docker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

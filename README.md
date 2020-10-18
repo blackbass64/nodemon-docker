@@ -11,14 +11,14 @@ Start project, run
 docker-compose up
 ```
 
-ถ้าคุณต้องการใช้ commands เกี่ยวกับ npm หรือ node คุณแค่รัน
+In case if you want to use npm or Node.js commands.
 
 ```bash
-docker-compose run app command ที่ต้องการ
+docker-compose run app <YOUR-DESIRED-COMMAND>
 ```
 ex. `docker-compose run app npm install jest --save`
 
-ถ้าคุณต้องการ re build the containner please stop the current containner and run the following commands below
+If you want to re-build the container please stop the current one and run the following command below.
 ```bash
 docker-compose up --build
 ```

@@ -1,8 +1,11 @@
 FROM node:13.10-alpine
 
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+WORKDIR /app
 
-COPY . .
+RUN npm install nodemon -g
 
-CMD ["node", "app.js"]
+COPY package*.json ./
+RUN npm install
+
+EXPOSE 3000
+CMD ["nodemon", "app.js"]

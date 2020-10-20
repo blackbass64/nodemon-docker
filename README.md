@@ -14,7 +14,7 @@ docker-compose up
 In case if you want to use npm or Node.js commands.
 
 ```bash
-docker-compose run app <YOUR-DESIRED-COMMAND>
+docker-compose run --rm app <YOUR-DESIRED-COMMAND>
 ```
 ex. `docker-compose run app npm install jest --save`
 

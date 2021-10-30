@@ -1,7 +1,7 @@
 {
   "name": "nodemon-docker",
-  "version": "1.0.0",
-  "description": "local development using nodemon in docker 🐳",
+  "version": "1.0.1",
+  "description": "Node.js local development on Docker container and Nodemon 🐳",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",

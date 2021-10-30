@@ -1,6 +1,8 @@
-# Nodemon Docker
-local development using nodemon in docker container 🐳
-You don't need to install Node.js or npm on your machine to develop Node.js, just using only Docker.
+# 🐳 Nodemon Docker
+
+Node.js local development on docker container and nodemon
+
+You don't need to install [Node.js](https://nodejs.org/) or [npm](https://www.npmjs.com/) on your machine to develop Node.js, just using only [Docker](https://www.docker.com/)
 
 ## Start developing on local machine
 Before you begin, you need to make sure you have installed [Docker Desktop](https://www.docker.com/products/docker-desktop)
